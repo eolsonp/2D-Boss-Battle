@@ -22,6 +22,7 @@ public class PlayerCharacter : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         Debug.Log("Hello");
+        Debug.Log("This is a test.");
 	}
 	
 	// Update is called once per frame
@@ -38,6 +39,6 @@ public class PlayerCharacter : MonoBehaviour {
 
     private void Move()
     {
-        rigidbody2dInstance.velocity = new Vector2(horizontalInput, 0);
+       // rigidbody2dInstance.velocity = new Vector2(horizontalInput, 0);
     }
 }
